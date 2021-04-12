@@ -1,32 +1,34 @@
 import styled from 'styled-components';
 
 export const Conteiner = styled.section`
-    max-width: 1320px;
+    max-width: 1280px;
     margin: 0 auto;
-
 `;
 
 export const Section = styled.div`
-    display: flex;
+   display: flex;
     align-items:center;
+    justify-content: space-between;
 
         .Card-product{
-
-            display:block;
-            background-color: var(--background-header);
-            width: 300px;
-            height: 490px;
+            background-color: #ffffff;
+            width: 310px;
+            height: 500px;
             border-radius: 8px;
-            margin: 15px;
-            
+            margin-bottom:70px;
+            border: 1px solid #dcdce6;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+
             img{
-                max-width: 299px;
+                max-width: 309px;
+                border-radius:6px;
             }
             .span{
                 position: absolute;
                 border-radius: 6px;
                 margin:-15px 0 0 10px;
-                border: 1px solid #dcdce6;
+                border: 1px solid #f0f2f5;
                 background-color: #ffffff;
                 text-transform:uppercase;
             }
@@ -41,6 +43,15 @@ export const Section = styled.div`
                 display: flex;
                 align-items:center;
             }
+            .reserve:hover{
+                cursor: pointer;
+
+            }
             
+        }
+        .Card-product:hover{
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+            cursor: pointer;
         }
 `;

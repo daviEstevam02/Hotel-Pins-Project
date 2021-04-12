@@ -16,15 +16,25 @@ export const Content = styled.div`
     justify-content: space-between;
 
 
+    .logoImg{
+        margin-top:5px;
+    }
+
     .link{
         text-decoration: none;
-        color: #000;
+        color: #ffffff;
         margin-top:50px;
         font-size: 20px;
     }
+    .link:hover{
+        color: #dcdce6;
+        
+    }
+    
     .Icon{
         margin: 2px 10px -1px;
     }
+   
     
     button{
         background: transparent;

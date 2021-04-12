@@ -5,7 +5,7 @@ export const GlobalStyle = createGlobalStyle `
     :root{
         --background: #f0f2f5;
 
-        --background-header: #F9F1F0;
+        --background-header: #106EBE;
     }
     input,button,textarea{
          font:400 18px Roboto, sans-serif;
@@ -27,7 +27,7 @@ export const GlobalStyle = createGlobalStyle `
     }
 
     body{
-      
+        background-color:var(--background) !important ;
         -webkit-font-smoothing: antialiased;
     }
     body,input,texarea,button{
