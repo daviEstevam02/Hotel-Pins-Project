@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.header`
 
     background:var( --background-header);
-
 `;
 
 export const Content = styled.div`
@@ -19,27 +18,51 @@ export const Content = styled.div`
     .logoImg{
         margin-top:5px;
     }
+    .link-icon{
+        align-self: flex-end;
+        padding:0 0 8px;
 
-    .link{
-        text-decoration: none;
-        color: #ffffff;
-        margin-top:50px;
-        font-size: 20px;
+        position:relative;
+
+       
+        .link{
+            display: flex;
+            align-items: center;
+
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 20px;
+        }
+        .link:hover{
+            color: #FE9031;
+        }
     }
-    .link:hover{
-        color: #dcdce6;
-        
+
+    .material-icons{
+        margin: -5px 5px 0 0;
+    }
+    #person{
+        color:#ffffff
+    }
+    #person:hover{
+        color: #FE9031;
+    }
+    #bed{
+        margin-top:-1px;
     }
     
-    .Icon{
-        margin: 2px 10px -1px;
-    }
-   
-    
+  
+
     button{
         background: transparent;
         border: 0;
         margin-top:40px;
+    }
 
+    .form-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top:15px;
     }
 `;

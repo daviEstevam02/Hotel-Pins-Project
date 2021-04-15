@@ -8,7 +8,10 @@ export function Content() {
     return(
 
         <Conteiner>
+            <p>Descubra</p>
+            <h1>Aguás de Lindóia</h1>
             <Section>
+            
             <div className="Card-product">
                         <div>
                         <img src={hotelImage} alt=""/>
@@ -18,8 +21,16 @@ export function Content() {
                         <span>8 Dias/ 7 Dias</span>
                         </div>
                         
-                        <h1>Hotel Glória</h1>
-                        <p>Localizado em Águas de Lindóia</p>
+                        <h1>Hotel Glória Resort e Spa</h1>
+                        
+
+                         <div className="rating-section">
+                            <div className="rating">8.8</div>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                        </div>
 
                         <p className="reserve">Reservar agora
                             <IoIosArrowRoundForward size={16} color= "#000"/>
@@ -35,8 +46,16 @@ export function Content() {
                         <span>8 Dias/ 7 Dias</span>
                         </div>
                         
-                        <h1>Hotel Glória</h1>
-                        <p>Localizado em Águas de Lindóia</p>
+                        <h1>Hotel Glória Resort e Spa</h1>
+                        
+
+                         <div className="rating-section">
+                            <div className="rating">8.8</div>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                        </div>
 
                         <p className="reserve">Reservar agora
                             <IoIosArrowRoundForward size={16} color= "#000"/>
@@ -52,8 +71,16 @@ export function Content() {
                         <span>8 Dias/ 7 Dias</span>
                         </div>
                         
-                        <h1>Hotel Glória</h1>
-                        <p>Localizado em Águas de Lindóia</p>
+                        <h1>Hotel Glória Resort e Spa</h1>
+                        
+
+                         <div className="rating-section">
+                            <div className="rating">8.8</div>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                        </div>
 
                         <p className="reserve">Reservar agora
                             <IoIosArrowRoundForward size={16} color= "#000"/>
@@ -69,8 +96,16 @@ export function Content() {
                         <span>8 Dias/ 7 Dias</span>
                         </div>
                         
-                        <h1>Hotel Glória</h1>
-                        <p>Localizado em Águas de Lindóia</p>
+                        <h1>Hotel Glória Resort e Spa</h1>
+                        
+
+                         <div className="rating-section">
+                            <div className="rating">8.8</div>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                        </div>
 
                         <p className="reserve">Reservar agora
                             <IoIosArrowRoundForward size={16} color= "#000"/>
@@ -89,8 +124,16 @@ export function Content() {
                         <span>8 Dias/ 7 Dias</span>
                         </div>
                         
-                        <h1>Hotel Glória</h1>
-                        <p>Localizado em Águas de Lindóia</p>
+                        <h1>Hotel Glória Resort e Spa</h1>
+                        
+
+                         <div className="rating-section">
+                            <div className="rating">8.8</div>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                        </div>
 
                         <p className="reserve">Reservar agora
                             <IoIosArrowRoundForward size={16} color= "#000"/>
@@ -106,8 +149,16 @@ export function Content() {
                         <span>8 Dias/ 7 Dias</span>
                         </div>
                         
-                        <h1>Hotel Glória</h1>
-                        <p>Localizado em Águas de Lindóia</p>
+                        <h1>Hotel Glória Resort e Spa</h1>
+                        
+                        
+                         <div className="rating-section">
+                            <div className="rating">8.8</div>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                        </div>
 
                         <p className="reserve">Reservar agora
                             <IoIosArrowRoundForward size={16} color= "#000"/>
@@ -123,8 +174,16 @@ export function Content() {
                         <span>8 Dias/ 7 Dias</span>
                         </div>
                         
-                        <h1>Hotel Glória</h1>
-                        <p>Localizado em Águas de Lindóia</p>
+                        <h1>Hotel Glória Resort e Spa</h1>
+                        
+
+                         <div className="rating-section">
+                            <div className="rating">8.8</div>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                        </div>
 
                         <p className="reserve">Reservar agora
                             <IoIosArrowRoundForward size={16} color= "#000"/>
@@ -140,8 +199,16 @@ export function Content() {
                         <span>8 Dias/ 7 Dias</span>
                         </div>
                         
-                        <h1>Hotel Glória</h1>
-                        <p>Localizado em Águas de Lindóia</p>
+                        <h1>Hotel Glória Resort e Spa</h1>
+                        
+
+                         <div className="rating-section">
+                            <div className="rating">8.8</div>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                            <span className="material-icons">&#xf0ec;</span>
+                        </div>
 
                         <p className="reserve">Reservar agora
                             <IoIosArrowRoundForward size={16} color= "#000"/>

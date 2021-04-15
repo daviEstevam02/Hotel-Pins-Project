@@ -19,9 +19,7 @@ export const Content = styled.form`
         border-radius: 10px;
         padding:0 24px;
         margin: 0 5px;
-
-      
-     
+        box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.15);
     }
     .box-content{
         display: block;
@@ -46,6 +44,8 @@ export const Content = styled.form`
         display:flex;
         align-items:center;
 
+        box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.15);
+
         padding-left:50px;
 
         .icon-search{
@@ -53,7 +53,7 @@ export const Content = styled.form`
         }
     }
     button:hover{
-        background-color: #FFA419;
+        background-color: #EB8517;
     }
 
 `;

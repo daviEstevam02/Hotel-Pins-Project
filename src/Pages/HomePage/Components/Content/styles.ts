@@ -1,8 +1,15 @@
 import styled from 'styled-components';
 
 export const Conteiner = styled.section`
-    max-width: 1280px;
+    max-width: 1320px;
     margin: 0 auto;
+
+    p{
+        margin: 0 0 10px 0;
+    }
+    h1{
+        margin: 5px 0 10px 0;
+    }
 `;
 
 export const Section = styled.div`
@@ -18,7 +25,7 @@ export const Section = styled.div`
             margin-bottom:70px;
             border: 1px solid #dcdce6;
             box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-
+            color:#444444;
 
             img{
                 max-width: 309px;
@@ -27,19 +34,18 @@ export const Section = styled.div`
             .span{
                 position: absolute;
                 border-radius: 6px;
-                margin:-15px 0 0 10px;
+                margin:-15px 0 0 30px;
                 border: 1px solid #f0f2f5;
                 background-color: #ffffff;
                 text-transform:uppercase;
             }
             h1{
-                margin: 20px 10px 0;
+                margin: 20px 0 10px 30px;
+                font-size:28px;
             }
-            p{
-                margin: 20px 10px 0;
-            }
+          
             .reserve{
-                margin:150px 0 0 150px;
+                margin:70px 0 0 150px;
                 display: flex;
                 align-items:center;
             }
@@ -47,6 +53,28 @@ export const Section = styled.div`
                 cursor: pointer;
 
             }
+            .rating-section{
+                display:flex;
+                align-items:center;
+                margin:70px 0 0 30px;
+
+                .rating{
+                    display:flex;
+                    align-items:center;
+                    justify-content:center;
+                    border-radius: 40%;
+                    width: 30px;
+                    height:30px;
+                    background:#0B930B;
+                    color:#f6f6f6;
+                    font-size:15px; 
+                    margin-right:10px
+               }
+               .material-icons{
+                   color:#ffa371;
+               }
+            }
+            
             
         }
         .Card-product:hover{
